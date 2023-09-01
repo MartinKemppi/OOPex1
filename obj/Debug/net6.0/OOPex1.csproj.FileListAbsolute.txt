@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\bin\Debug\net6.0\OOPex1.exe
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\bin\Debug\net6.0\OOPex1.deps.json
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\bin\Debug\net6.0\OOPex1.runtimeconfig.json
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\bin\Debug\net6.0\OOPex1.dll
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\bin\Debug\net6.0\OOPex1.pdb
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.AssemblyInfo.cs
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.dll
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\refint\OOPex1.dll
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.pdb
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\OOPex1.genruntimeconfig.cache
+C:\Users\opilane\source\repos\MartinKemppi\OOPex1\obj\Debug\net6.0\ref\OOPex1.dll
