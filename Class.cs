@@ -37,12 +37,14 @@ namespace OOPex1
                 Console.WriteLine(m1.GetPopularity() < m2.GetPopularity());
 
 
-                m1.MessagePopularity();
+
+
+                //m1.MessagePopularity();
                 
                 for (int i = 0; i < 1000; i++) { m2.AddLike(); }
 
-                Console.WriteLine(m2.GetPopularity());
-                Console.WriteLine(m1.GetPopularityInfo(m1.GetPopularity(), m2.GetPopularity()));
+                //Console.WriteLine(m2.GetPopularity());
+                //Console.WriteLine(m1.GetPopularityInfo(m1.GetPopularity(), m2.GetPopularity()));
                 Message m3 = new Message("Tere","Mari",DateTime.Now.AddDays(-1));
                 Message m4 = new Message("Guten Tag", "Hans", DateTime.Now.AddDays(-5));
                 Message m5 = new Message("Hei", "Marika", DateTime.Now.AddDays(-10));
@@ -52,7 +54,41 @@ namespace OOPex1
                 list.Add(m3);
                 list.Add(m4);
                 list.Add(m5);
+
+                Console.WriteLine();
+
+            {
+                List<Message> messages = Message.GenerateRandomMessages();
+
+                foreach (var message in messages)
+                {
+                    Console.WriteLine("Generated message:");
+                    Console.WriteLine($"Content: {message.Content}");
+                    Console.WriteLine($"Author: {message.Author}");
+                    Console.WriteLine($"Time: {message.Time}");
+                    Console.WriteLine($"Popularity: {message.GetPopularity()}");
+                    Console.WriteLine();
+                }
+
+                // Find the most popular message
+                Message mostPopularMessage = Message.FindMostPopularMessage(messages);
+
+                if (mostPopularMessage != null)
+                {
+                    Console.WriteLine("Most Popular Message:");
+                    Console.WriteLine($"Content: {mostPopularMessage.Content}");
+                    Console.WriteLine($"Author: {mostPopularMessage.Author}");
+                    Console.WriteLine($"Time: {mostPopularMessage.Time}");
+                    Console.WriteLine($"Popularity: {mostPopularMessage.GetPopularity()}");
+                }
+                else
+                {
+                    Console.WriteLine("No messages to compare.");
+                }
             }
+
+
         }
+    }
          
 }
