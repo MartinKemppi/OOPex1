@@ -181,19 +181,19 @@ namespace OOPex1
             Random rand = new Random();
             List<Message> messages = new List<Message>();
 
-            int paljusõnumi = rand.Next(1, 11); // Generate a random number of messages between 1 and 10.
+            int paljusõnumi = rand.Next(1, 11); // 1-10 Sõnumi random
 
             for (int i = 0; i < paljusõnumi; i++)
             {
-                Console.WriteLine("Generating random message:");
-                string _content = Guid.NewGuid().ToString().Substring(0, 10); // Generate random content.
-                string _author = "Author" + rand.Next(1, 6); // Generate a random author.
-                int _time = rand.Next(-30, -1); // Generate a random negative time (days, hours, or minutes).
+                Console.WriteLine("Loome sõnum:");
+                string _content = Guid.NewGuid().ToString().Substring(0, 10); // Gen. random sisu 
+                string _author = "Autor" + rand.Next(1, 6); // Gen. random autori
+                int _time = rand.Next(-30, -1); // Gen. random neg aeg (päev, tund, minutt).
 
                 DateTime messageTime;
                 string timeUnit;
 
-                if (rand.Next(2) == 0) // Randomly choose whether it's days, hours, or minutes.
+                if (rand.Next(2) == 0) // Random valime kas on päev, tund, minutt.
                 {
                     messageTime = DateTime.Now.AddDays(_time);
                     timeUnit = "paev";

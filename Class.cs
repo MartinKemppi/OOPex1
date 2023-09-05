@@ -62,28 +62,28 @@ namespace OOPex1
 
                 foreach (var message in messages)
                 {
-                    Console.WriteLine("Generated message:");
-                    Console.WriteLine($"Content: {message.Content}");
-                    Console.WriteLine($"Author: {message.Author}");
-                    Console.WriteLine($"Time: {message.Time}");
+                    Console.WriteLine("Loodud sõnum:");
+                    Console.WriteLine($"Sisu: {message.Content}");
+                    Console.WriteLine($"Autor: {message.Author}");
+                    Console.WriteLine($"Aeg: {message.Time}");
                     Console.WriteLine($"Popularity: {message.GetPopularity()}");
                     Console.WriteLine();
                 }
 
-                // Find the most popular message
+                // kõige populaarsem sõnum
                 Message mostPopularMessage = Message.FindMostPopularMessage(messages);
 
                 if (mostPopularMessage != null)
                 {
-                    Console.WriteLine("Most Popular Message:");
-                    Console.WriteLine($"Content: {mostPopularMessage.Content}");
-                    Console.WriteLine($"Author: {mostPopularMessage.Author}");
-                    Console.WriteLine($"Time: {mostPopularMessage.Time}");
+                    Console.WriteLine("Loodud sõnum:");
+                    Console.WriteLine($"Sisu: {mostPopularMessage.Content}");
+                    Console.WriteLine($"Autor: {mostPopularMessage.Author}");
+                    Console.WriteLine($"Aeg: {mostPopularMessage.Time}");
                     Console.WriteLine($"Popularity: {mostPopularMessage.GetPopularity()}");
                 }
                 else
                 {
-                    Console.WriteLine("No messages to compare.");
+                    Console.WriteLine("Ei ole sõnumit võrdlemiseks.");
                 }
             }
 
