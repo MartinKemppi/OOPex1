@@ -216,6 +216,7 @@ namespace OOPex1
                 message.AddLike();
                 Console.WriteLine(message.GetPopularity());
                 messages.Add(message);
+                Console.WriteLine();
             }
 
             return messages;

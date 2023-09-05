@@ -75,6 +75,7 @@ namespace OOPex1
 
                 if (mostPopularMessage != null)
                 {
+                    Console.WriteLine("Kõige populaarsem sõnum on:");
                     Console.WriteLine("Loodud sõnum:");
                     Console.WriteLine($"Sisu: {mostPopularMessage.Content}");
                     Console.WriteLine($"Autor: {mostPopularMessage.Author}");
